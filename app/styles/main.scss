@@ -1,0 +1,46 @@
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'sass-bootstrap/lib/responsive';
+
+.hero-unit {
+	padding: 20px 20px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.hero-unit h1{
+	margin-bottom: 50px;
+}
+
+div.list-view-container {
+	margin: 0 0 24px;
+}
+
+p {
+	font-size: 20px;
+}
+
+p.user-name {
+	margin: 0;
+	padding: 0;
+	color: #C66E53;
+	font-size: 16px;
+}
+
+p.message-date {
+	margin: 0;
+	padding: 0;
+	color: #3887A8;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#signinButton {
+	width: 181px;
+	margin: auto;
+}
+
+.input-append {
+	margin: 10px auto;
+	width: 100%;
+	display: none;	
+}
