@@ -1,6 +1,10 @@
-/*global define */
-define([], function () {
-    'use strict';
+define(['jquery', 'underscore', 'backbone', 'router'], function($, _, Backbone, Router){
 
-    return '\'Allo \'Allo!';
+    var initialize = function() {
+        Router.initalize();
+    }
+
+    return {
+        initalize: initialize
+    };
 });
